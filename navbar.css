@@ -1,52 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
-html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
-	margin: 0;
-	padding: 0;
-}
-html, body { min-height: 100%; }
-
-code {
-	background: #fff1;
-	font-family: 'Inconsolata', monospace;
-	padding: .2em .4em;
-}
-
-#footer {
-	background-color: #246c;
-	background-image: linear-gradient(to bottom, transparent, #0009);
-	border-top: 1px solid #fff3;
-	box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
-	overflow: hidden;
-	padding: 8px;
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 9001;
-}
-#footer a {
-	color: #85c6f6;
-	padding: 1em 0;
-	text-decoration: none;
-}
-#footer ul {
-	display: flex;
-	list-style: none;
-	justify-content: center;
-	font-size: 2em;
-	font-weight: 300;
-}
-#footer ul li {
-	padding: 0 .5em;
-}
-
-/* Appearance */
 .links {
 	background-color: #123;
 	background-image: linear-gradient(to bottom, #0003, transparent);
-	border-bottom: 1px solid #0003;
-	box-shadow: 0 0 32px #0003;
-	font-size: 2em;
+	border-bottom: 0.1px solid #0003;
+	box-shadow: 0 0 2px #0003;
+	font-size: 1.5em;
 	font-weight: 300;
 }
 .links > a {
@@ -72,6 +30,7 @@ code {
 	top: 0;
 	left: 0;
 	right: 0;
+    margin-bottom: 10px;
 }
 .links {
 	display: grid;
